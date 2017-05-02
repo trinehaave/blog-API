@@ -2,9 +2,9 @@
   "name": "blog-api",
   "version": "1.0.0",
   "description": "blog api",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon server.js"
   },
   "dependencies": {
@@ -17,5 +17,10 @@
     "node": "4.4.3"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+   "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.1.2"
+  }
 }
